@@ -1,0 +1,159 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-07-19 16:26:31.614878",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "default_email_account_for_mail_sending_section",
+  "email",
+  "column_break_xkrpp",
+  "commission_tds_percentage",
+  "section_break_j9qzb",
+  "parent_to_dealer",
+  "section_break_qjjnr",
+  "parent_to_franchise",
+  "section_break_okoso",
+  "section_break_dfj9j",
+  "point_structure",
+  "first_parent",
+  "second_parent_",
+  "parent_concept_column",
+  "image",
+  "image_preview",
+  "section_break_7hdg9",
+  "for_end_user",
+  "section_break_1ayhr",
+  "franchise_to_user"
+ ],
+ "fields": [
+  {
+   "fieldname": "point_structure",
+   "fieldtype": "Section Break",
+   "label": "Loyalty Point Structure"
+  },
+  {
+   "fieldname": "first_parent",
+   "fieldtype": "Percent",
+   "label": "First Parent %"
+  },
+  {
+   "fieldname": "second_parent_",
+   "fieldtype": "Percent",
+   "label": "Second Parent %"
+  },
+  {
+   "fieldname": "default_email_account_for_mail_sending_section",
+   "fieldtype": "Section Break",
+   "label": "Default Email Account For Sending Mail"
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "section_break_j9qzb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parent_to_dealer",
+   "fieldtype": "Table",
+   "hidden": 1,
+   "label": "Senbagam Paints To Dealer",
+   "options": "Parent To Dealer"
+  },
+  {
+   "fieldname": "section_break_qjjnr",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parent_to_franchise",
+   "fieldtype": "Table",
+   "label": "Senbagam Paints To Franchise",
+   "options": "Parent To Franchise"
+  },
+  {
+   "fieldname": "section_break_dfj9j",
+   "fieldtype": "Section Break",
+   "label": "End User Settings"
+  },
+  {
+   "fieldname": "franchise_to_user",
+   "fieldtype": "Table",
+   "label": "Franchise To User",
+   "options": "Franchise To User"
+  },
+  {
+   "fieldname": "section_break_1ayhr",
+   "fieldtype": "Section Break",
+   "label": "Discount Percentage For Customer"
+  },
+  {
+   "fieldname": "section_break_okoso",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "parent_concept_column",
+   "fieldtype": "Column Break",
+   "label": "Parent Concept"
+  },
+  {
+   "fieldname": "image_preview",
+   "fieldtype": "HTML",
+   "label": "Image Preview"
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach",
+   "label": "Image"
+  },
+  {
+   "fieldname": "commission_tds_percentage",
+   "fieldtype": "Percent",
+   "label": "Commission TDS Percentage"
+  },
+  {
+   "fieldname": "column_break_xkrpp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "for_end_user",
+   "fieldtype": "Heading",
+   "label": "<b>For End User</b>"
+  },
+  {
+   "fieldname": "section_break_7hdg9",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "hide_toolbar": 1,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-12-21 18:34:31.312164",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "Sales Value Based Discount Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Company Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1,
+ "track_views": 1
+}

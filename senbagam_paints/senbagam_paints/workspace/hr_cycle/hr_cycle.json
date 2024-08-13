@@ -1,0 +1,88 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"D8dfnpblDj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">HR Cycle</span>\",\"col\":12}},{\"id\":\"b_GVzvXmsS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"5glzCIr0CU\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Timesheet\",\"col\":3}},{\"id\":\"ar4pG95Bfj\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance\",\"col\":3}},{\"id\":\"2PskZPkuts\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":3}},{\"id\":\"mCzzm56xwu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee Attendance Tool\",\"col\":3}},{\"id\":\"l9U19aNWUh\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"OkzWsciEYr\",\"type\":\"card\",\"data\":{\"card_name\":\"Reports\",\"col\":4}}]",
+ "creation": "2023-08-28 17:28:32.944953",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "share-people",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "HR Cycle",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Reports",
+   "link_count": 1,
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 1,
+   "label": "Monthly Attendance Sheet",
+   "link_count": 0,
+   "link_to": "Monthly Attendance Sheet",
+   "link_type": "Report",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2023-11-09 16:35:16.886877",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "HR Cycle",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "HR Manager"
+  }
+ ],
+ "sequence_id": 41.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Leave Application",
+   "link_to": "Leave Application",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Timesheet",
+   "link_to": "Timesheet",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "Employee",
+   "stats_filter": "{\"status\":[\"=\",\"Active\"]}",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Attendance",
+   "link_to": "Attendance",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee Attendance Tool",
+   "link_to": "Employee Attendance Tool",
+   "type": "DocType"
+  }
+ ],
+ "title": "HR Cycle"
+}

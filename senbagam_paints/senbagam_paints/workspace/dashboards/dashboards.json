@@ -1,0 +1,67 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"3kiOb4UL7u\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Dashboards</span>\",\"col\":12}},{\"id\":\"btr0VnYaHQ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Accounts\",\"col\":3}},{\"id\":\"flUUTahibu\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Selling\",\"col\":3}},{\"id\":\"qt0_cIWGWz\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Buying\",\"col\":3}},{\"id\":\"YOK5gxBrbA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Stock\",\"col\":3}}]",
+ "creation": "2023-08-23 17:34:36.239975",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "file-large",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Dashboards",
+ "links": [],
+ "modified": "2023-12-01 17:30:40.738722",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "Dashboards",
+ "number_cards": [],
+ "owner": "senbagampaints@sp.com",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Company Admin"
+  },
+  {
+   "role": "Dashboard Manager"
+  },
+  {
+   "role": "Configuration Manager"
+  }
+ ],
+ "sequence_id": 46.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Accounts",
+   "link_to": "Accounts",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Selling",
+   "link_to": "Selling",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Buying",
+   "link_to": "Buying",
+   "type": "Dashboard"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Stock",
+   "link_to": "Stock",
+   "type": "Dashboard"
+  }
+ ],
+ "title": "Dashboards"
+}

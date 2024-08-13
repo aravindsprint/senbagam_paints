@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include senbagam_paints *.css
+recursive-include senbagam_paints *.csv
+recursive-include senbagam_paints *.html
+recursive-include senbagam_paints *.ico
+recursive-include senbagam_paints *.js
+recursive-include senbagam_paints *.json
+recursive-include senbagam_paints *.md
+recursive-include senbagam_paints *.png
+recursive-include senbagam_paints *.py
+recursive-include senbagam_paints *.svg
+recursive-include senbagam_paints *.txt
+recursive-exclude senbagam_paints *.pyc

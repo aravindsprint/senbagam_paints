@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.senbagampaints.app",
+      "sha256_cert_fingerprints": [
+        "E3:85:52:22:EB:CD:C5:3E:D0:DA:A6:29:14:3E:F4:45:3F:45:9F:36:23:50:EE:38:FC:3E:DA:29:92:6B:01:22"
+      ]
+    }
+  }
+]

@@ -1,0 +1,68 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"WWH1QI38Vj\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">User Profiles</span>\",\"col\":12}},{\"id\":\"MeOi3toBjK\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"User\",\"col\":3}},{\"id\":\"TSlKbVBhyo\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Employee\",\"col\":3}},{\"id\":\"s4PQAkMM_v\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance\",\"col\":3}},{\"id\":\"JhGRsN7TSZ\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Leave Application\",\"col\":3}},{\"id\":\"aOu6woF02V\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Timesheet\",\"col\":3}}]",
+ "creation": "2023-12-21 18:40:07.203833",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "assign",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "User Profiles",
+ "links": [],
+ "modified": "2023-12-22 22:59:40.437427",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "User Profiles",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Employee Self Service"
+  }
+ ],
+ "sequence_id": 48.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "User",
+   "link_to": "User",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Timesheet",
+   "link_to": "Timesheet",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Employee",
+   "link_to": "Employee",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Attendance",
+   "link_to": "Attendance",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Leave Application",
+   "link_to": "Leave Application",
+   "type": "DocType"
+  }
+ ],
+ "title": "User Profiles"
+}

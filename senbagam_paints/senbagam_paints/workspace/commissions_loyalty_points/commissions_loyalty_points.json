@@ -1,0 +1,71 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"ZOqVeKhDJB\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Commissions Loyalty Points</span>\",\"col\":12}},{\"id\":\"AAQ6J9MHsy\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Loyalty Point Entry\",\"col\":3}},{\"id\":\"FTJSySoBLE\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Painter Commission\",\"col\":3}},{\"id\":\"gqELbZY61f\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Commission Redemption\",\"col\":3}},{\"id\":\"ezuYxZSaSi\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Sales Value Based Discount Settings\",\"col\":3}},{\"id\":\"5L8vXKQABm\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Welcome\",\"col\":3}}]",
+ "creation": "2023-08-22 18:36:58.812167",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "income",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Commissions Loyalty Points",
+ "links": [],
+ "modified": "2023-12-21 16:22:25.234389",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "Commissions Loyalty Points",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Company Admin"
+  },
+  {
+   "role": "Configuration Manager"
+  }
+ ],
+ "sequence_id": 45.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Commission Redemption",
+   "link_to": "Commission Redemption",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Sales Value Based Discount Settings",
+   "link_to": "Sales Value Based Discount Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Welcome",
+   "link_to": "Welcome",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Painter Commission",
+   "link_to": "Painter Commission",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Loyalty Point Entry",
+   "link_to": "Loyalty Point Entry",
+   "type": "DocType"
+  }
+ ],
+ "title": "Commissions Loyalty Points"
+}

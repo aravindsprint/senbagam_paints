@@ -1,0 +1,78 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-16 19:29:36.403047",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "role_profile_for_purchase_order_req_qty",
+  "role_profile_for_sales_invoice_overdue",
+  "role_profile_for_new_leads",
+  "role_profile_for_leave_application",
+  "role_profile_for_sales_and_purchase_qty_and_amount",
+  "role_profile_for_material_request"
+ ],
+ "fields": [
+  {
+   "fieldname": "role_profile_for_purchase_order_req_qty",
+   "fieldtype": "Table MultiSelect",
+   "label": "Role Profile for Purchase Order Req Qty",
+   "options": "HQ Notification Role"
+  },
+  {
+   "fieldname": "role_profile_for_sales_invoice_overdue",
+   "fieldtype": "Table MultiSelect",
+   "label": "Role Profile for Sales Invoice Overdue",
+   "options": "HQ Notification Role"
+  },
+  {
+   "fieldname": "role_profile_for_new_leads",
+   "fieldtype": "Table MultiSelect",
+   "label": "Role Profile for New Leads",
+   "options": "HQ Notification Role"
+  },
+  {
+   "fieldname": "role_profile_for_sales_and_purchase_qty_and_amount",
+   "fieldtype": "Table MultiSelect",
+   "label": "Role Profile for Sales and Purchase Qty and Amount",
+   "options": "HQ Notification Role"
+  },
+  {
+   "fieldname": "role_profile_for_leave_application",
+   "fieldtype": "Table MultiSelect",
+   "label": "Role Profile for Leave Application",
+   "options": "HQ Notification Role"
+  },
+  {
+   "fieldname": "role_profile_for_material_request",
+   "fieldtype": "Table MultiSelect",
+   "label": "Role Profile for Material Request",
+   "options": "HQ Notification Role"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-12-12 13:21:45.394110",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "HQ Notification Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Company Admin",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

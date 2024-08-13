@@ -1,0 +1,47 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"OJ2Tk7P2iL\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Data Migration</span>\",\"col\":12}},{\"id\":\"_i3RBOZXoq\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Data Import\",\"col\":3}},{\"id\":\"J1Wom4jjVI\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Data Export\",\"col\":3}}]",
+ "creation": "2024-01-04 12:52:21.290347",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "table_2",
+ "idx": 0,
+ "is_hidden": 0,
+ "label": "Data Migration",
+ "links": [],
+ "modified": "2024-01-04 13:04:24.444669",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "Data Migration",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [
+  {
+   "role": "Script Manager"
+  }
+ ],
+ "sequence_id": 49.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Data Import",
+   "link_to": "Data Import",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Data Export",
+   "link_to": "Data Export",
+   "type": "DocType"
+  }
+ ],
+ "title": "Data Migration"
+}

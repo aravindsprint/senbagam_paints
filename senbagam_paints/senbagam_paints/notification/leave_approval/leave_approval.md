@@ -1,0 +1,1 @@
+Leave Application Status  <b>{{doc.status}}</b>

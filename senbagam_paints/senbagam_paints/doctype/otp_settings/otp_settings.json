@@ -1,0 +1,68 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-11-27 15:58:49.112610",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "sms_gateway_url",
+  "template_id",
+  "authkey",
+  "cookie"
+ ],
+ "fields": [
+  {
+   "fieldname": "sms_gateway_url",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "SMS Gateway URL",
+   "reqd": 1
+  },
+  {
+   "fieldname": "template_id",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Template Id",
+   "reqd": 1
+  },
+  {
+   "fieldname": "authkey",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Authkey",
+   "reqd": 1
+  },
+  {
+   "fieldname": "cookie",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Cookie",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2023-11-27 15:58:49.112610",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "OTP Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

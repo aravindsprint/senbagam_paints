@@ -1,0 +1,30 @@
+{
+ "attach_print": 0,
+ "channel": "System Notification",
+ "condition": "doc.status==\"Approved\" or doc.status==\"Rejected\"\n\n",
+ "creation": "2023-12-21 18:39:32.672161",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Leave Application",
+ "enabled": 1,
+ "event": "Value Change",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Leave Application Status  <b>{{doc.status}}</b>",
+ "modified": "2023-12-21 19:01:18.027464",
+ "modified_by": "Administrator",
+ "module": "Senbagam Paints",
+ "name": "Leave Approval",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": ""
+  }
+ ],
+ "send_system_notification": 0,
+ "send_to_all_assignees": 0,
+ "subject": "Leave Application Status  <b>{{doc.status}}</b>",
+ "value_changed": "status"
+}
