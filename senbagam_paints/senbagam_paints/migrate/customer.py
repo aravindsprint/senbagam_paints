@@ -7,7 +7,7 @@ def create_permission():
     create_workflow()
     customer_group()
     custom_fields()
-    create_workflow_commision()
+    # create_workflow_commision()
     create_customer()
     create_referral()
     add(parent="Customer", role="Company Admin", permlevel=2)
